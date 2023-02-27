@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  background: #f1fbff;
+}
+
+.section-padding {
+    padding-block: 100px;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 250px;
+   
+
+}
+
+.carousel-caption h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.carousel-caption > p {
+    max-width: 50ch;
+    width: 100%;
+    padding-block: 1rem;
+    margin: auto;
+}
+.carousel-inner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #00000082;
+}
